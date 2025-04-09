@@ -1,4 +1,5 @@
-TOKEN = ''  # <--- Токен бота
-ADMIN_ID = 1   # <--- Telegram ID
-PROVIDER_TOKEN = '' # оставь пустым
-NOVITA_API_KEY = '' # <---Novita.ai API ключ
+BOT_TOKEN = ""  # Замените на токен вашего бота
+ADMIN_IDS = [65, 98] # Замените на ID администраторов бота
+ADMIN_GROUP_ID = -100 # ID группы администраторов для уведомлений (если нужно)
+
+DATABASE_NAME = "shop_bot.db"
